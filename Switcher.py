@@ -15,8 +15,8 @@ class TabRefresherApp:
         except:
             pass  # ignore icon errors
 
-        self.switch_interval = tk.IntVar(value=120)
-        self.refresh_delay = tk.IntVar(value=5)
+        self.switch_interval = tk.IntVar(value=5)
+        self.refresh_delay = tk.IntVar(value=1)
         self.selected_browser = tk.StringVar(value="Chrome")
         self.stop_event = Event()
 
